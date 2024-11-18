@@ -7,7 +7,11 @@ class Solution(object):
         """
         leftPointer=0
         for rightPointer in range(len(nums)):
-            if nums[rightPointer]!=val:
+            if nums[rightPointer] != val:
                 nums[leftPointer]=nums[rightPointer]
                 leftPointer+=1
         return leftPointer
+            
+
+
+

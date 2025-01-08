@@ -10,3 +10,5 @@ class Solution(object):
                 nums[leftPointer]=nums[rightPointer]
                 leftPointer+=1
         return leftPointer
+
+    

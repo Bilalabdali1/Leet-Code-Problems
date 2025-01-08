@@ -6,10 +6,8 @@ class Solution(object):
         :rtype: int
         """
         leftPointer=0
-        for rightPointer in range(0,len(nums)):
+        for rightPointer in range(len(nums)):
             if nums[rightPointer]!=val:
                 nums[leftPointer]=nums[rightPointer]
                 leftPointer+=1
         return leftPointer
-
-
